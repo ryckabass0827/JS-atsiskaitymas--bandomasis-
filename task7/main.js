@@ -5,9 +5,16 @@
 */
 
 const asmuo = {
-  vardas : "Rokas",
-  pavarde : "Banaitis",
-  amzius : 25,
-  lytis : "vyras",
-  vedes : false
+  vardas: "Rokas",
+  pavarde: "Banaitis",
+  amzius: 25,
+  lytis: "vyras",
+  vedes: false
 }
+
+function rastiRaktazodzius(objektas) {
+  return Object.keys(objektas);
+}
+
+const raktazodziai = rastiRaktazodzius(asmuo);
+console.log(raktazodziai);
