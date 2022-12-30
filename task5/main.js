@@ -14,3 +14,10 @@ const asmenys = [
   { id: '6', name: 'Kamilė', turiMasina: true },
   { id: '7', name: 'Aloyzas', turiMasina: true }
 ];
+
+function atrinktiAsmenis(asmenys) {
+  return asmenys.filter(asmuo => asmuo.turiMasina === true);
+}
+
+const asmenysTurintysMasinas = atrinktiAsmenis(asmenys);
+console.log(asmenysTurintysMasinas);
