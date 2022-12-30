@@ -4,9 +4,27 @@
   <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <script src="./main.js" defer></script>
     <title>1 uzduotis</title>
 </head>
 <body>
+<main>
+  <form id="Forma">
+    <label for="temperature">Įveskite temperatūrą:</label><br>
+    <input type="number" id="temperature" name="temperature"><br>
+    <label for="unit">Įveskite matavimo vienetą:</label><br>
+    <select id="unit" name="unit">
+      <option value="C">Celsijaus</option>
+      <option value="F">Farenheito</option>
+    </select><br><br>
+    <input type="submit" value="Skaičiuoti">
+  </form> 
   
+  <h3>Atsakymas</h3>
+  
+  <div id="result"></div>
+  
+</main>
 </body>
 </html>
