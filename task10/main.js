@@ -1,3 +1,7 @@
+import { vardoIlgis } from './scripts/vardoIlgis';
+import { lytis } from './scripts/lytis.js';
+import { pilnametyste } from './scripts/pilnametyste';
+
 /*
   Sutvarkykite 10 užduoties failų kodą taip, kad veiktų main.js parašytas kodas.
 */

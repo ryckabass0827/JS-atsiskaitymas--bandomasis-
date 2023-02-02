@@ -1,3 +1,3 @@
-function vardoIlgis(asmuo){
+function vardoIlgis(asmuo) {
   return asmuo.vardas.length;
 }
